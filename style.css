@@ -18,8 +18,23 @@ body {
     height: 300px;
 
   }
-
-
+.info h5{
+    margin:0;
+    padding-top:15px;
+    position: absolute;
+    bottom:0;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0,0,0,0.685);
+    font-size: 20px;
+    font-weight: bold;
+}
+.info span{
+    font-size: 15px;
+    color: darkolivegreen;
+    font-weight: bold;
+}
 
 
 @media (max-width:1200px) {
