@@ -4,13 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-
   <title>PortFolio</title>
   <link href="style.css" rel="stylesheet">
-  <link href="swiper.mi n.css" rel="stylesheet">
+  <link href="swiper.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
 </head>
 <!--<header>
     <a href="#" class="logo">LOGO</a>
@@ -26,38 +24,69 @@
     <div class="clearfix"></div>
 </header>
 </header>-->
-
 <body>
   <div class="swiper-container">
     <div class="swiper-wrapper">
-      <div class="swiper-slide" style="background-image:url(./images/nature-1.jpg)">
-      <div class="info">
-        <h5> Toshiro  MPIKA <br> <span> WEB DEVELOPPER</span> </h5>
+      <div class="swiper-slide">
+        <div class="card">
+          <div class="sliderText">
+            <h3>Slider One</h3>
+          </div>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat laboriosam corrupti laudantium
+              volup</p>
+            <a href="">Read More</a>
+          </div>
+        </div>
       </div>
+      <div class="swiper-slide">
+        <div class="card">
+          <div class="sliderText">
+            <h3>Slider Two</h3>
+          </div>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat laboriosam corrupti laudantium
+              volup</p>
+            <a href="">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card">
+          <div class="sliderText">
+            <h3>Slider Three</h3>
+          </div>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat laboriosam corrupti laudantium
+              volup</p>
+            <a href="">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card">
+          <div class="sliderText">
+            <h3>Slider Fourth</h3>
+          </div>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellat laboriosam corrupti laudantium
+              volup</p>
+            <a href="">Read More</a>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="swiper-pagination"></div>
   </div>
-
-
-
-  <!------------------------------------JAVASCRIPT------------------------------------------------>
-
-  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-  crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-</script>
+  </div>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
   </script>
-  
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
   <script src="swiper.min.js"></script>
-   
-  
-  
-  
-  <!-- Initialize Swiper -->
   <script>
     var swiper = new Swiper('.swiper-container', {
       effect: 'coverflow',
@@ -65,18 +94,16 @@
       centeredSlides: true,
       slidesPerView: 'auto',
       coverflowEffect: {
-        rotate: 50,
-        stretch: 0,
+        rotate: 30,
+        stretch: 100,
         depth: 100,
         modifier: 1,
-        slideShadows : true,
+        slideShadows: false,
       },
       pagination: {
         el: '.swiper-pagination',
       },
     });
   </script>
-
 </body>
-
 </html>
